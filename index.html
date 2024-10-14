@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "tYz5ovjOQpGFrJnOQ",
+      });
+   })();
+</script>
+
+
+</head>
+<body>
+    <header>
+            <img class="logo" src="580b57fcd9996e24bc43c529.png">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+            <p class="user">User</p>
+
+    </header>
+    <section class="hero">
+        
+        <div class="left">
+            <div class="box-1">
+                <h1 class="h11">Revitallize Your<br>Clothes with Expert</h1>
+                <h1 class="h22">Laundary Services!</h1>
+                <p>Welcome to AdhyWash, your go-to for stress-free laundry care! We offer easy online booking, eco-friendly cleaning, and reliable delivery right to your doorstep. Let us handle your laundry, so you can focus on what matters most!</p>
+                <button class="bttn"   >Book a service today! </button>
+            </div>
+        </div>
+         <div class="right">
+            <div class="box-2">
+                 <img class="im" src="Designer (1).png">
+            </div>
+          </div>
+        </div>
+        <button class="icon">
+            <span class="ic">.</span>
+            <span class="ic">.</span>
+            <span class="ic">.</span>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </button>
+
+    </section>
+
+
+    <footer id="footer1">
+        <p>Our Achievements</p><hr> <p>15+ <br> Laundary Services</p> <hr> <p>140+ <br> Happy Costomers</p><hr> <p>2+ Yrs <br>Experience</p>
+    </footer>
+
+
+    <section class="service">
+        <div class="left2">
+            <div class="oS">    <h2>Our Services</h2>
+                <p>Click on the add to cart button to add the service to your cart</p>
+                <br>
+            </div>
+
+                <div class="Sbox"> <p id="services"></p> <button id="AddBtn"></button></div>
+                <br>
+                <p id="addp">ⓘ Add the items to your cart and book now</p>
+      
+           
+        </div>
+        <div class="right2">
+        
+            <div class="addItems">
+                <h4 class="hrr">Added Items</h4>
+
+                <div class="ai">
+                    <div class="nill">
+                        <p id="nillp">ⓘ</p>
+                        <p>No items added</p>
+                        <p>Add items from the service box</p>
+                    </div>
+
+                    <p id="addItem"></p> <p id="addItemPrice"></p></div>
+                
+                <div class="total"><p id="totalamt">Total Amount</p> <p id="totalPrice">$</p></div>
+            </div>
+
+            <div class="addItems">
+                <h4 class="hrr">Book Now</h4>
+                <form action="" id="bookingForm">
+                    <label for="Full Name" >Full Name</label>
+                    <input type="text" id="fullName">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    <label for="Phone">Phone</label>
+                    <input type="number" id="phone">
+                    <button id="bookNowBtn" onclick="sendMail()">Book Now</button>
+                </form>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="section3">
+        <div class="qltydisc">
+            <div class="qBox"><img src="fnvskml_-removebg-preview.png" alt=""><p>Elevate your wardobe with our<br>meticulous dry cleaning,<br>ensuring garments look and feel as good as new</p></div>
+            <div class="qBox"><img src="ufjnk_m_-removebg-preview.png" alt=""><p>We're commited to providing<br>prompts solutions to ensure your<br>experience is smooth and worry-free</p></div>
+            <div class="qBox"><img src="fjnck_ewm-removebg-preview.png" alt=""><p>Enjoy seamless service with our<br>convenient pickup and deliver<br>options, tailored to your<br>schedule.</p></div>
+            <div class="qBox"><img src="nmcaklm-removebg-preview.png" alt=""><p>Experienc exceptional care<br>without breaking the bank-our<br>affordable prices make laundary<br>day stress-free.</p></div>
+        </div>
+        <div class="sub">
+            <h1>Subscribe to our <br> newsletter</h1>
+            <form action="" id="subform"> <input type="text" placeholder="Full name"> <input type="text" placeholder="Email">  <button id="subBttn">Subscribe</button></form>
+        </div>
+        <footer id="footer3"> 
+            <div class="qBox"><img class="loo" src="580b57fcd9996e24bc43c529.png" alt=""><p> <span>About us</span>Adhy Wash was founded by a <br>second-year IT student at CUSAT,<br> offering modern and efficient laundry services for today’s busy lifestyles.</p></div>
+            <div class="qBox"><h3>Important Links</h3><p><a href="">About us</a> <br> <a href="">Contact us</a> <br> <a href="">Privacy Policy</a> <br> <a href="">Terms of use</a> <br> <a href="">Refund Policy</a></p></div>
+            <div class="qBox"><h3>Contact</h3><p><a href="adithdileepadadith@gmail.com">adithdileepadadith@gmail.com </a><br>9876543210 </p></div>
+            <div class="qBox"> <h3>Follow us</h3> <div class="smedia"><img class="i" src="download.jpeg" alt=""><img class="i" src="tgvbjj.jpeg" alt=""><img class="i" src="download.png" alt=""><p></p></div>
+        </footer></div>  
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
